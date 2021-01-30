@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"calc"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	addRes := calc.Add(12,23)
+	fmt.Println(addRes)
 }
